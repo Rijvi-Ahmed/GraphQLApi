@@ -1,0 +1,20 @@
+{
+  "name": "graphqlapi",
+  "version": "1.0.0",
+  "description": "Love to code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Rijvi",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.0",
+    "core-js": "^3.14.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "nodemon": "^2.0.7"
+  }
+}
